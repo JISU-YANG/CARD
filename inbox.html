@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>EGO CARD</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+    <link rel="stylesheet" class="page-highlight" type="text/css" href="styles/highlights/highlight_yellow.css">
+
+</head>
+
+<body class="theme-light" data-highlight="highlight-yellow" data-gradient="body-default">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div class="header header-fixed header-logo-center">
+            <a href="index.html" class="header-title">EGO CARD</a>
+            <!-- <a href="#" class="back-button header-icon header-icon-1"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-4"><i class="fas fa-lightbulb"></i></a> -->
+        </div>
+        <div id="footer-bar" class="footer-bar-1">
+            <a href="index.html"><i class="fas fa-id-card-alt"></i><span>카드</span></a>
+            <a href="inbox.html" class="active-nav"><i class="fas fa-inbox"></i><span>보관함</span></a>
+        </div>
+
+        <!--start of page content, add your stuff here-->
+        <div class="page-content header-clear-medium">
+
+            <div class="card card-style">
+                <div class="d-flex content">
+                    <div class="flex-grow-1">
+                        <div>
+                            <h1 class="font-700 mb-1">양 지수</h1>
+                            <p class="mb-0 pb-1 pe-3">
+                                Full Stack Development (JAVA)
+                            </p>
+                            </br>
+                            <span class="opacity-50">@nickname</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/empty.png" data-src="images/pictures/faces/4s.png" width="80" class="rounded-circle mt- shadow-xl preload-img">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>소개</h4>
+                    <p>
+                        코드를 빛는 개발자, 양지수 입니다.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-style">
+                <div class="content mt-0 mb-0">
+                    <div class="list-group list-custom-large list-icon-0">
+                        <a href="./spec.html">
+                            <i class="fa font-14 fas fa-scroll rounded-s color-yellow-dark"></i>
+                            <span style="margin-top: 2px;">이력</span>
+                            <i class="fa fa-chevron-right opacity-30"></i>
+                        </a>
+                        <a href="./portfolio.html">
+                            <i class="fa font-14 fas fa-archive rounded-s color-blue-dark"></i>
+                            <span style="margin-top: 2px;">포트폴리오</span>
+                            <i class="fa fa-chevron-right opacity-30"></i>
+                        </a>
+                        <a href="./contact.html">
+                            <i class="fas fa-phone-alt rounded-s color-green-dark"></i>
+                            <span style="margin-top: 2px;">연락처</span>
+                            <i class="fa fa-chevron-right opacity-30"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--end of page content, off canvas elements ( menus / action sheets / modals / toasts / snackbars here-->
+
+
+        <!-- Be sure this is on your main visiting page, for example, the index.html page-->
+        <!-- Install Prompt for Android -->
+        <div id="menu-install-pwa-android" class="menu menu-box-bottom menu-box-detached rounded-l">
+            <div class="boxed-text-l mt-4 pb-3">
+                <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+                <h4 class="mt-3">Add EGO CARD on your Home Screen</h4>
+                <p>
+                    Install EGO CARD on your home screen, and access it just like a regular app. It really is that simple!
+                </p>
+                <a href="#" class="pwa-install btn btn-s rounded-s shadow-l text-uppercase font-900 bg-highlight mb-2">Add to Home Screen</a><br>
+                <a href="#" class="pwa-dismiss close-menu color-gray-dark text-uppercase font-900 opacity-60 font-10 pt-2">Maybe later</a>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Install instructions for iOS -->
+        <div id="menu-install-pwa-ios" class="menu menu-box-bottom menu-box-detached rounded-l">
+            <div class="boxed-text-xl mt-4 pb-3">
+                <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+                <h4 class="mt-3">Add EGO CARD on your Home Screen</h4>
+                <p class="mb-0 pb-0">
+                    Install EGO CARD, and access it like a regular app. Open your Safari menu and tap "Add to Home Screen".
+                </p>
+                <div class="clearfix pt-3"></div>
+                <a href="#" class="pwa-dismiss close-menu color-highlight text-uppercase font-700">Maybe later</a>
+            </div>
+        </div>
+
+        <!--end of div id page-->
+    </div>
+
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
